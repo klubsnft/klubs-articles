@@ -1,0 +1,126 @@
+.layout {
+    width: 100%;
+
+    >header {
+        display    : flex;
+        background : #171616;
+        position   : sticky;
+        align-items: center;
+        left       : 0;
+        top        : 0;
+        z-index    : 999;
+        height     : 86px;
+
+        @media @phone {
+            background: #000;
+            height    : auto;
+            padding   : 0px 16px;
+        }
+
+        >.nav {
+            width      : 100%;
+            display    : flex;
+            flex-wrap  : wrap;
+            align-items: center;
+            margin     : auto;
+            height     : 86px;
+            max-width  : 1024px;
+
+            @media @phone {
+                width          : 100%;
+                justify-content: space-between;
+            }
+
+            >.logo {
+                display        : flex;
+                justify-content: space-around;
+                margin-right   : 10%;
+
+                @media @phone {
+                    display     : block;
+                    margin-right: 0;
+                }
+
+                >a {
+                    >img {
+                        height: 19px;
+
+                        @media @phone {
+                            height: 13px;
+                        }
+                    }
+                }
+            }
+
+            >.pc-menu {
+                @media @phone {
+                    display: none;
+                }
+            }
+
+            >.right {
+                display    : flex;
+                align-items: center;
+                .float-wrapper();
+
+                >.user-menu {
+                    float: right;
+
+                    @media @phone {
+                        display: none;
+                    }
+                }
+
+                >.mobile-info {
+                    display: none;
+
+                    @media @phone {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+
+    >main {
+        max-width     : 1024px;
+        display       : flex;
+        min-height    : 100vh;
+        flex-direction: column;
+        margin        : auto;
+        padding       : 30px 0px;
+
+        @media @phone {
+            padding: 30px 16px;
+        }
+    }
+
+    >footer {
+        >section {
+            display    : flex;
+            align-items: center;
+            text-align : center;
+
+            >a {
+                font-weight: 700;
+                font-size  : 25px;
+                line-height: 41px;
+                padding    : 40px 30px;
+                color      : white;
+
+                &:hover {
+                    color: #FFF200;
+                }
+            }
+
+            >hr {
+                border          : 0;
+                border-radius   : 2px;
+                width           : 2px;
+                height          : 14px;
+                color           : #fff;
+                background-color: #fff;
+            }
+        }
+    }
+}

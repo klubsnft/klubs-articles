@@ -1,0 +1,21 @@
+key,ko,en
+GOVERNANCE_MENU,GOVERNANCE
+STAKING_MENU,STAKING
+CONFIRM_BUTTON,확인,Confirm
+CANCEL_BUTTON,취소,Cancel
+V1_MENU,V1,V1
+HOLDER_CHECK_TITLE,디스코드 지갑 연결
+HOLDER_CHECK_DESC,Enjoy Your Own NFT
+HOLDER_CHECK_BUTTON,디스코드 로그인
+HOLDER_CHECK_SUCCESS_DESC,지갑 연결 성공
+HOLDER_CHECK_FAIL_DESC,지갑 연결 실패
+CONNECT_WALLET_TITLE,지갑 연결,Connect Wallet
+CONNECT_WALLET_DESC,Klubs은 클레이튼 블록체인과의 연결이 필요합니다. 카이카스 혹은 카카오톡 클립에서 연결해주시기 바랍니다.,Gaia Protocol needs a connection with the Klayton blockchain. Please connect from Kaikas or Kakao Talk Klip.
+CONNECT_WALLET_BUTTON1,카이카스 연결,Connect Kaikas
+CONNECT_WALLET_BUTTON2,카카오톡 클립으로 연결,Connect with Kakao Talk Klip
+CONNECT_WALLET_BUTTON3,연결하지 않고 둘러보기,Explore without Wallet Connection
+CONFIRM_BUTTON,Confirm,Confirm
+CANCEL_BUTTON,Cancel,Cancel
+MY_NFT_MENU,MY NFT,MY NFT
+ART_MENU,ART,ART
+PFP_MENU,PFP,PFP

@@ -1,0 +1,48 @@
+.select {
+    display  : inline-block;
+    width    : 100%;
+    max-width: 100px;
+
+    >.selected {
+        display        : flex;
+        justify-content: space-between;
+
+        >.selected-value {
+            max-width    : 420px;
+            white-space  : nowrap;
+            overflow     : hidden;
+            text-overflow: ellipsis;
+        }
+
+        >.arrow {
+            width          : 20px;
+            height         : 20px;
+            background     : url("/images/shared/icn/expand-more.svg") no-repeat;
+            background-size: 100%;
+        }
+    }
+
+    >ul {
+        display        : none;
+        list-style-type: none;
+        padding-left   : 0px;
+        width          : 100%;
+        max-width      : 100px;
+        position       : absolute;
+        background     : #000;
+        border-top     : none;
+        margin         : 1px 0 0 -1px;
+        cursor         : pointer;
+
+        >li {
+            padding    : 8px 5px;
+            font-family: OCRAStd;
+            font-size  : 12px;
+            color      : #d6d6d6;
+
+            &:hover {
+                background: rgba(255, 242, 0, 0.2);
+            }
+        }
+    }
+}
